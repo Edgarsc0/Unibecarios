@@ -1,0 +1,25 @@
+import VacanteCard from './VacanteCard';
+
+const vacantes = [
+  {
+    id: '2',
+    titulo: 'Becario de marketing',
+    empresa: 'DiDi',
+    ubicacion: 'Ciudad de México',
+    fecha: 'Publicado hace 1 semana'
+  },
+  // ... más vacantes
+];
+
+export default function VacanteListado() {
+  return (
+    <section>
+      <h2 className="text-xl font-semibold mb-4">Otras vacantes disponibles</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {vacantes.map(vacante => (
+          <VacanteCard key={vacante.id} {...vacante} />
+        ))}
+      </div>
+    </section>
+  );
+}

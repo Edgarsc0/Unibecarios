@@ -1,0 +1,160 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.modalContainer {
+  width: 100%;
+  max-width: 900px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.welcomeContent {
+  flex: 1;
+  padding: 40px;
+  background: #1f2937;
+}
+
+.loginSection {
+  width: 350px;
+  padding: 40px;
+  background: white;
+}
+
+.mainTitle {
+  font-size: 32px;
+  color: #1ED2F1;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  color: #1ED2F1;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.sectionText {
+  font-size: 15px;
+  color: #FFFF;
+  line-height: 1.6;
+}
+
+.loginHeader {
+  margin-bottom: 30px;
+}
+
+.loginTitle {
+  font-size: 24px;
+  color: #2c3e50;
+  text-align: center;
+  font-weight: 600;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.inputLabel {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.rememberMe {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 25px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.rememberLabel {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.loginButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loginButton:hover {
+  background-color: #2980b9;
+}
+
+.divider {
+  height: 1px;
+  background: #eee;
+  margin: 25px 0;
+}
+
+.registerText {
+  text-align: center;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.registerLink {
+  color: #3498db;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .modalContainer {
+    flex-direction: column;
+  }
+  
+  .welcomeContent,
+  .loginSection {
+    width: 100%;
+  }
+  
+  .loginSection {
+    padding: 30px;
+  }
+}

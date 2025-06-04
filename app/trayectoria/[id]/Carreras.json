@@ -1,0 +1,1073 @@
+{
+  "carreras_academicas": [
+    {
+      "area": "Ingeniería Civil y Construcción",
+      "id": "ICC",
+      "valor": "ICC",
+      "descripcion": "La Ingeniería Civil es una de las disciplinas de ingeniería más antiguas y fundamentales, enfocada en el diseño, construcción y mantenimiento de infraestructuras.",
+      "perfil_egreso": {
+        "hard_skills": [
+          "Diseño estructural",
+          "Cálculo de materiales",
+          "Uso de software CAD/BIM",
+          "Gestión de proyectos"
+        ],
+        "soft_skills": [
+          "Liderazgo",
+          "Resolución de problemas",
+          "Trabajo en equipo",
+          "Comunicación efectiva"
+        ]
+      },
+      "areas_trabajo": {
+        "sectores": [
+          "Construcción",
+          "Infraestructura",
+          "Urbanismo",
+          "Consultoría"
+        ],
+        "puestos": [
+          "Ingeniero de proyectos",
+          "Supervisor de obra",
+          "Diseñador estructural",
+          "Planificador urbano"
+        ],
+        "empresas": [
+          "ICA",
+          "Grupo Carso",
+          "Secretaría de Comunicaciones y Transportes",
+          "Empresas constructoras internacionales"
+        ]
+      },
+      "salario_promedio": "$22,000 - $40,000 MXN (nivel inicial)",
+      "certificaciones_recomendadas": [
+        "PMI-CAPM",
+        "Autodesk Certified Professional",
+        "LEED Green Associate"
+      ],
+      "trayectoria": {
+        "primeros_semestres": {
+          "titulo": "Fundamentos",
+          "materias": [
+            "Matemáticas (cálculo diferencial e integral, álgebra lineal, ecuaciones diferenciales)",
+            "Física (mecánica, electricidad y magnetismo, termodinámica)",
+            "Química general",
+            "Dibujo técnico",
+            "Programación",
+            "Ética profesional"
+          ]
+        },
+        "semestres_intermedios": {
+          "titulo": "Disciplinas Básicas de Ingeniería Civil",
+          "materias": [
+            "Mecánica de Materiales y Estructuras (análisis de esfuerzos y deformaciones, diseño de estructuras de concreto y acero)",
+            "Mecánica de Suelos y Geotecnia (propiedades del suelo, cimentaciones, estabilidad de taludes)",
+            "Hidráulica e Hidrología (flujo de fluidos, diseño de sistemas de abastecimiento de agua, drenaje y saneamiento, obras hidráulicas)",
+            "Topografía y Geomática (medición de terrenos, sistemas de información geográfica (SIG) aplicados a la ingeniería civil)",
+            "Materiales de Construcción (propiedades y comportamiento de concreto, acero, madera y otros materiales)"
+          ]
+        },
+        "semestres_avanzados": {
+          "titulo": "Especialización y Proyectos",
+          "materias": [
+            "Ingeniería de Transportes (diseño de carreteras, ferrocarriles, aeropuertos)",
+            "Ingeniería Ambiental y Sanitaria (tratamiento de aguas residuales, gestión de residuos sólidos, impacto ambiental de proyectos de construcción)",
+            "Gerencia de Proyectos de Construcción (planificación, control de costos, gestión de recursos humanos en obras)",
+            "Ingeniería Estructural Avanzada (diseño sísmico, estructuras especiales)"
+          ],
+          "culminacion": "Proyectos integradores, prácticas profesionales y, en muchos casos, un proyecto de tesis o una modalidad de titulación que involucra la resolución de un problema real o el desarrollo de un diseño complejo."
+        }
+      }
+    },
+    {
+      "area": "Ingeniería Eléctrica y Electrónica",
+      "id": "IEE",
+      "valor": "IEE",
+      "descripcion": "Esta carrera aborda el diseño, desarrollo, operación y mantenimiento de sistemas eléctricos y electrónicos.",
+      "perfil_egreso": {
+        "hard_skills": [
+          "Diseño de circuitos electrónicos",
+          "Programación de microcontroladores",
+          "Análisis de sistemas eléctricos",
+          "Manejo de software especializado"
+        ],
+        "soft_skills": [
+          "Pensamiento analítico",
+          "Creatividad técnica",
+          "Adaptabilidad tecnológica",
+          "Gestión de proyectos"
+        ]
+      },
+      "areas_trabajo": {
+        "sectores": [
+          "Energía",
+          "Telecomunicaciones",
+          "Manufactura",
+          "Automatización"
+        ],
+        "puestos": [
+          "Ingeniero de diseño electrónico",
+          "Especialista en sistemas de potencia",
+          "Técnico en telecomunicaciones",
+          "Consultor en automatización"
+        ],
+        "empresas": [
+          "CFE",
+          "Siemens",
+          "Intel",
+          "Empresas de energías renovables"
+        ]
+      },
+      "salario_promedio": "$25,000 - $45,000 MXN (nivel inicial)",
+      "certificaciones_recomendadas": [
+        "Certificación en sistemas fotovoltaicos",
+        "PLC Programming Certification",
+        "IEEE Membership"
+      ],
+      "trayectoria": {
+        "primeros_semestres": {
+          "titulo": "Fundamentos",
+          "materias": [
+            "Matemáticas avanzadas (cálculo vectorial, ecuaciones diferenciales, series de Fourier)",
+            "Física (electromagnetismo, óptica)",
+            "Química",
+            "Programación",
+            "Circuitos eléctricos básicos",
+            "Electrónica analógica"
+          ]
+        },
+        "semestres_intermedios": {
+          "titulo": "Disciplinas Básicas de Ingeniería Eléctrica/Electrónica",
+          "materias": [
+            "Teoría de Circuitos (análisis de circuitos en corriente directa y alterna, transformadas de Laplace)",
+            "Electrónica Analógica (diseño y análisis de amplificadores, filtros, osciladores)",
+            "Electrónica Digital (lógica combinacional y secuencial, microcontroladores, VHDL/Verilog)",
+            "Campos Electromagnéticos (propagación de ondas, líneas de transmisión, antenas)",
+            "Máquinas Eléctricas (transformadores, motores y generadores)",
+            "Sistemas de Control (modelado de sistemas, control PID, estabilidad)"
+          ]
+        },
+        "semestres_avanzados": {
+          "titulo": "Especialización y Proyectos",
+          "materias": [
+            "Sistemas de Potencia (generación, transmisión y distribución de energía eléctrica, redes inteligentes (Smart Grids))",
+            "Telecomunicaciones (sistemas de comunicación analógicos y digitales, redes de datos, procesamiento de señales)",
+            "Control y Automatización (robótica, sistemas embebidos, automatización industrial)",
+            "Microelectrónica y Circuitos Integrados (diseño de VLSI, fabricación de semiconductores)",
+            "Instrumentación y Sensores (diseño de sistemas de medición, adquisición de datos)"
+          ],
+          "culminacion": "Participación en proyectos de laboratorio, prácticas profesionales y desarrollo de proyectos de tesis que demuestran su capacidad para diseñar y resolver problemas complejos en el campo."
+        }
+      }
+    },
+    {
+      "area": "Ingeniería Mecánica",
+      "id": "IMA",
+      "valor": "IMA",
+      "descripcion": "La Ingeniería Mecánica se ocupa del diseño, análisis, manufactura y mantenimiento de sistemas mecánicos.",
+      "perfil_egreso": {
+        "hard_skills": [
+          "Diseño mecánico",
+          "Simulación de sistemas",
+          "Manufactura avanzada",
+          "Termodinámica aplicada"
+        ],
+        "soft_skills": [
+          "Innovación tecnológica",
+          "Gestión de proyectos",
+          "Trabajo en equipo multidisciplinario",
+          "Resolución de problemas complejos"
+        ]
+      },
+      "areas_trabajo": {
+        "sectores": [
+          "Manufactura",
+          "Automotriz",
+          "Energía",
+          "Aeroespacial"
+        ],
+        "puestos": [
+          "Ingeniero de diseño mecánico",
+          "Especialista en mantenimiento industrial",
+          "Project manager",
+          "Consultor en eficiencia energética"
+        ],
+        "empresas": [
+          "General Motors",
+          "Siemens",
+          "Pemex",
+          "Empresas aeronáuticas"
+        ]
+      },
+      "salario_promedio": "$23,000 - $42,000 MXN (nivel inicial)",
+      "certificaciones_recomendadas": [
+        "Certificación en SolidWorks",
+        "Lean Six Sigma",
+        "Certificación en mantenimiento predictivo"
+      ],
+      "trayectoria": {
+        "primeros_semestres": {
+          "titulo": "Fundamentos",
+          "materias": [
+            "Matemáticas (cálculo multivariable, ecuaciones diferenciales, álgebra lineal)",
+            "Física (mecánica clásica, termodinámica, fluidos)",
+            "Química",
+            "Introducción al dibujo asistido por computadora (CAD)",
+            "Principios de manufactura"
+          ]
+        },
+        "semestres_intermedios": {
+          "titulo": "Disciplinas Básicas de Ingeniería Mecánica",
+          "materias": [
+            "Estática y Dinámica (equilibrio de cuerpos, cinemática y cinética de partículas y cuerpos rígidos)",
+            "Mecánica de Materiales (comportamiento de materiales bajo carga, diseño de elementos de máquinas)",
+            "Termodinámica (leyes de la termodinámica, ciclos de potencia y refrigeración)",
+            "Mecánica de Fluidos (comportamiento de fluidos, flujo en tuberías, aerodinámica)",
+            "Transferencia de Calor (conducción, convección y radiación)",
+            "Diseño Mecánico (diseño de engranes, rodamientos, ejes, sistemas de transmisión)",
+            "Manufactura y Procesos de Fabricación (fundición, soldadura, maquinado, manufactura aditiva)"
+          ]
+        },
+        "semestres_avanzados": {
+          "titulo": "Especialización y Proyectos",
+          "materias": [
+            "Robótica y Mecatrónica (diseño y control de robots, integración de sistemas mecánicos, electrónicos y de control)",
+            "Sistemas Energéticos (diseño de plantas de energía, energías renovables, sistemas de climatización)",
+            "Vibraciones Mecánicas y Acústica (análisis y control de vibraciones en máquinas y estructuras)",
+            "Control Automático (diseño de sistemas de control para procesos mecánicos)",
+            "Materiales Avanzados (polímeros, cerámicos, materiales compuestos)",
+            "Diseño Asistido por Computadora (CAD/CAE/CAM) (simulación por elementos finitos (FEM), manufactura asistida por computadora)"
+          ],
+          "culminacion": "Proyectos integradores, prácticas profesionales y la elaboración de una tesis o proyecto final que demuestre la capacidad de diseñar y optimizar sistemas mecánicos."
+        }
+      }
+    },
+    {
+      "area": "Ingeniería Química y Alimentos",
+      "id": "IQA",
+      "valor": "IQA",
+      "descripcion": "Es una disciplina que aplica los principios de la química, la física y la biología al diseño, operación y optimización de procesos industriales que involucran transformaciones químicas y físicas, con un énfasis particular en la producción y procesamiento de alimentos.",
+      "perfil_egreso": {
+        "hard_skills": [
+          "Diseño de procesos químicos",
+          "Control de calidad",
+          "Biotecnología aplicada",
+          "Seguridad industrial"
+        ],
+        "soft_skills": [
+          "Gestión de proyectos",
+          "Trabajo en laboratorio",
+          "Innovación en procesos",
+          "Comunicación técnica"
+        ]
+      },
+      "areas_trabajo": {
+        "sectores": [
+          "Alimenticio",
+          "Farmacéutico",
+          "Petroquímico",
+          "Biotecnología"
+        ],
+        "puestos": [
+          "Ingeniero de procesos",
+          "Especialista en control de calidad",
+          "Investigador en biotecnología",
+          "Consultor en seguridad industrial"
+        ],
+        "empresas": [
+          "Grupo Bimbo",
+          "Pemex Petroquímica",
+          "Empresas farmacéuticas",
+          "Laboratorios de investigación"
+        ]
+      },
+      "salario_promedio": "$21,000 - $38,000 MXN (nivel inicial)",
+      "certificaciones_recomendadas": [
+        "HACCP (Análisis de Peligros y Puntos Críticos de Control)",
+        "ISO 9001",
+        "Certificación en biotecnología"
+      ],
+      "trayectoria": {
+        "primeros_semestres": {
+          "titulo": "Fundamentos y Ciencias Básicas",
+          "materias": [
+            "Matemáticas (cálculo, álgebra lineal, ecuaciones diferenciales)",
+            "Física (mecánica, termodinámica)",
+            "Química general, orgánica, inorgánica y fisicoquímica",
+            "Biología general y microbiología (para el componente de alimentos)"
+          ]
+        },
+        "semestres_intermedios": {
+          "titulo": "Operaciones Unitarias y Fenómenos de Transporte",
+          "materias": [
+            "Balance de Materia y Energía",
+            "Termodinámica Química (equilibrio de fases, reacciones químicas, eficiencia energética)",
+            "Fenómenos de Transporte (transferencia de momentum, calor y masa)",
+            "Operaciones Unitarias (diseño y análisis de equipos industriales como reactores, intercambiadores de calor, columnas de destilación, extractores, secadores, evaporadores, filtradores)",
+            "Química Analítica e Instrumental (técnicas para la caracterización de materias primas y productos)"
+          ]
+        },
+        "semestres_avanzados": {
+          "titulo": "Especialización y Aplicaciones",
+          "materias": [
+            "Ingeniería de Reacciones Químicas (diseño de reactores)",
+            "Ingeniería Bioquímica (procesos que involucran organismos vivos o enzimas)",
+            "Ingeniería de Alimentos (procesamiento de alimentos, conservación, diseño de plantas de alimentos, calidad e inocuidad alimentaria)",
+            "Bioprocesos (fermentación, biotecnología aplicada a la producción de alimentos y otros productos)",
+            "Diseño de Plantas y Procesos (integración de operaciones unitarias y equipos, optimización económica y ambiental)",
+            "Control de Procesos (automatización y control de variables en plantas químicas y alimentarias)",
+            "Gestión de Calidad y Normatividad (normas de calidad, seguridad alimentaria, regulaciones industriales)"
+          ],
+          "culminacion": "Proyectos de diseño de procesos, prácticas industriales y, en muchos casos, un proyecto de tesis enfocado en el desarrollo o mejora de un proceso químico o alimentario."
+        }
+      }
+    },
+    {
+      "area": "Ingeniería Ambiental y Energía",
+      "id": "IAE",
+      "valor": "IAE",
+      "descripcion": "Esta carrera aborda la problemática ambiental desde una perspectiva ingenieril, integrando soluciones energéticas sostenibles.",
+      "perfil_egreso": {
+        "hard_skills": [
+          "Evaluación de impacto ambiental",
+          "Diseño de sistemas de tratamiento",
+          "Energías renovables",
+          "Modelado ambiental"
+        ],
+        "soft_skills": [
+          "Conciencia ecológica",
+          "Negociación con stakeholders",
+          "Pensamiento sistémico",
+          "Adaptabilidad a normativas cambiantes"
+        ]
+      },
+      "areas_trabajo": {
+        "sectores": [
+          "Consultoría ambiental",
+          "Energías renovables",
+          "Gestión pública",
+          "Industria sustentable"
+        ],
+        "puestos": [
+          "Especialista en impacto ambiental",
+          "Consultor en sostenibilidad",
+          "Coordinador de proyectos verdes",
+          "Auditor ambiental"
+        ],
+        "empresas": [
+          "SEMARNAT",
+          "Empresas de energías limpias",
+          "Consultorías ambientales",
+          "Organismos internacionales"
+        ]
+      },
+      "salario_promedio": "$20,000 - $36,000 MXN (nivel inicial)",
+      "certificaciones_recomendadas": [
+        "ISO 14001",
+        "LEED Green Associate",
+        "Certificación en energías renovables"
+      ],
+      "trayectoria": {
+        "primeros_semestres": {
+          "titulo": "Fundamentos",
+          "materias": [
+            "Matemáticas (cálculo, ecuaciones diferenciales)",
+            "Física (mecánica, termodinámica, electricidad)",
+            "Química (general, orgánica, analítica, fisicoquímica)",
+            "Biología (general, ecología)",
+            "Conceptos de desarrollo sostenible"
+          ]
+        },
+        "semestres_intermedios": {
+          "titulo": "Disciplinas Básicas de Ingeniería Ambiental y Energía",
+          "materias": [
+            "Hidrología y Recursos Hídricos (ciclo del agua, gestión de cuencas, tratamiento de agua potable y residual)",
+            "Contaminación Atmosférica (fuentes, dispersión, control de emisiones, calidad del aire)",
+            "Gestión de Residuos Sólidos (caracterización, tratamiento, disposición final, reciclaje, valorización energética)",
+            "Contaminación de Suelos (degradación, remediación de suelos contaminados)",
+            "Ecología y Evaluación de Impacto Ambiental (análisis de ecosistemas, metodologías de EIA)",
+            "Termodinámica y Transferencia de Calor",
+            "Introducción a las Energías Renovables (conceptos básicos de solar, eólica, geotérmica, biomasa)"
+          ]
+        },
+        "semestres_avanzados": {
+          "titulo": "Especialización y Aplicaciones",
+          "materias": [
+            "Tecnologías de Tratamiento de Aguas Residuales (diseño de plantas de tratamiento, biorreactores)",
+            "Remediación de Sitios Contaminados (bioremediación, fitorremediación, técnicas fisicoquímicas)",
+            "Energía Solar Fotovoltaica y Térmica (diseño e implementación de sistemas)",
+            "Energía Eólica (diseño de turbinas, parques eólicos)",
+            "Bioenergía (biocombustibles, biomasa para energía)",
+            "Eficiencia Energética y Auditorías Energéticas (optimización del uso de energía en edificios e industrias)",
+            "Política y Legislación Ambiental (marco legal nacional e internacional)",
+            "Sistemas de Información Geográfica (SIG) Ambientales (mapeo y análisis de datos ambientales)"
+          ],
+          "culminacion": "Proyectos de diseño de sistemas ambientales o energéticos, prácticas en instituciones u empresas, y un proyecto de titulación que aborde una problemática real."
+        }
+      }
+    },
+    {
+      "area": "Computación, TIC y Software",
+      "id": "CTS",
+      "valor": "CTS",
+      "descripcion": "Esta área abarca varias carreras (Ingeniería en Sistemas Computacionales, Ingeniería en Tecnologías de la Información y Comunicaciones, Ingeniería en Software, Ciencias de la Computación, etc.), con trayectorias académicas que comparten un tronco común pero divergen en su especialización.",
+      "perfil_egreso": {
+        "hard_skills": [
+          "Programación avanzada",
+          "Desarrollo de software",
+          "Bases de datos",
+          "Ciberseguridad"
+        ],
+        "soft_skills": [
+          "Pensamiento lógico",
+          "Resolución creativa de problemas",
+          "Trabajo en equipo ágil",
+          "Aprendizaje continuo"
+        ]
+      },
+      "areas_trabajo": {
+        "sectores": [
+          "Tecnología",
+          "Finanzas (FinTech)",
+          "Salud (HealthTech)",
+          "Consultoría TI"
+        ],
+        "puestos": [
+          "Desarrollador Full Stack",
+          "Arquitecto de software",
+          "Especialista en ciberseguridad",
+          "Data Scientist"
+        ],
+        "empresas": [
+          "Google, Microsoft, Amazon",
+          "Startups tecnológicas",
+          "Bancos y fintech",
+          "Empresas de consultoría"
+        ]
+      },
+      "salario_promedio": "$30,000 - $60,000 MXN (nivel inicial)",
+      "certificaciones_recomendadas": [
+        "AWS Certified Developer",
+        "Scrum Master",
+        "Certified Ethical Hacker"
+      ],
+      "trayectoria": {
+        "primeros_semestres": {
+          "titulo": "Fundamentos y Lógica",
+          "materias": [
+            "Matemáticas (cálculo, álgebra lineal, lógica matemática, probabilidad y estadística)",
+            "Física básica (electromagnetismo para entender hardware)",
+            "Pensamiento computacional y programación estructurada (en lenguajes como C, Python, Java)",
+            "Arquitectura de computadoras y sistemas operativos básicos"
+          ]
+        },
+        "semestres_intermedios": {
+          "titulo": "Estructuras y Algoritmos",
+          "materias": [
+            "Estructuras de Datos y Algoritmos (diseño y análisis de algoritmos eficientes)",
+            "Programación Orientada a Objetos (desarrollo de software modular y reusable)",
+            "Bases de Datos (diseño, implementación y gestión de bases de datos relacionales y no relacionales)",
+            "Redes de Computadoras (protocolos de red (TCP/IP), arquitectura de redes, seguridad)",
+            "Sistemas Operativos (concurrencia, gestión de memoria, sistemas de archivos)",
+            "Desarrollo Web (tecnologías frontend y backend)"
+          ]
+        },
+        "semestres_avanzados": {
+          "titulo": "Especialización y Proyectos",
+          "materias": [
+            "Ingeniería de Software (metodologías de desarrollo, pruebas de software, patrones de diseño)",
+            "Inteligencia Artificial y Aprendizaje Automático (Machine Learning) (redes neuronales, procesamiento de lenguaje natural, visión por computadora)",
+            "Ciberseguridad (criptografía, seguridad de redes, forense digital)",
+            "Desarrollo de Aplicaciones Móviles (iOS, Android)",
+            "Computación en la Nube (Cloud Computing) (arquitecturas, servicios, despliegue)",
+            "Ciencia de Datos y Big Data (análisis de grandes volúmenes de datos, herramientas)",
+            "Realidad Virtual y Aumentada (desarrollo de experiencias inmersivas)",
+            "Sistemas Embebidos (programación de hardware a bajo nivel)"
+          ],
+          "culminacion": "Proyectos de desarrollo de software complejos, prácticas profesionales en la industria tecnológica y, en muchos casos, un proyecto de tesis o una incubación de un proyecto emprendedor."
+        }
+      }
+    },
+    {
+      "area": "Matemáticas y Física",
+      "id": "MF",
+      "valor": "MF",
+      "descripcion": "Estas son las carreras fundamentales de las Ciencias Físico-Matemáticas, con un enfoque más profundo en la teoría y la investigación.",
+      "perfil_egreso": {
+        "hard_skills": [
+          "Modelado matemático",
+          "Análisis avanzado",
+          "Métodos numéricos",
+          "Simulación computacional"
+        ],
+        "soft_skills": [
+          "Pensamiento abstracto",
+          "Capacidad analítica",
+          "Resolución de problemas complejos",
+          "Comunicación científica"
+        ]
+      },
+      "areas_trabajo": {
+        "sectores": [
+          "Academia",
+          "Investigación",
+          "Finanzas cuantitativas",
+          "Tecnología"
+        ],
+        "puestos": [
+          "Investigador científico",
+          "Analista cuantitativo",
+          "Especialista en modelado",
+          "Profesor universitario"
+        ],
+        "empresas": [
+          "Institutos de investigación",
+          "Universidades",
+          "Bancos de inversión",
+          "Empresas tecnológicas"
+        ]
+      },
+      "salario_promedio": "$18,000 - $35,000 MXN (varía por sector)",
+      "certificaciones_recomendadas": [
+        "Certificación en análisis de datos",
+        "Especialización en matemáticas aplicadas",
+        "Doctorado para investigación"
+      ],
+      "carreras": [
+        {
+          "nombre": "Licenciatura en Matemáticas",
+          "perfil_egreso": {
+            "hard_skills": [
+              "Álgebra avanzada",
+              "Análisis matemático",
+              "Topología",
+              "Teoría de números"
+            ],
+            "soft_skills": [
+              "Pensamiento lógico",
+              "Abstracción matemática",
+              "Resolución de problemas teóricos",
+              "Comunicación de conceptos abstractos"
+            ]
+          },
+          "areas_trabajo": {
+            "sectores": [
+              "Educación superior",
+              "Investigación pura",
+              "Criptografía",
+              "Ciencia de datos"
+            ],
+            "puestos": [
+              "Investigador en matemáticas puras",
+              "Profesor universitario",
+              "Especialista en criptografía",
+              "Analista cuantitativo"
+            ],
+            "empresas": [
+              "IMAS/UNAM",
+              "Centros de investigación",
+              "Empresas de seguridad informática",
+              "Instituciones financieras"
+            ]
+          },
+          "salario_promedio": "$20,000 - $40,000 MXN (dependiendo de especialización)",
+          "certificaciones_recomendadas": [
+            "Certificación en ciencia de datos",
+            "Especialización en matemáticas aplicadas",
+            "Doctorado para investigación académica"
+          ],
+          "trayectoria": {
+            "primeros_semestres": {
+              "titulo": "Fundamentos y Razonamiento Lógico",
+              "materias": [
+                "Cálculo Diferencial e Integral (varias variables)",
+                "Álgebra Lineal (espacios vectoriales, transformaciones lineales, valores y vectores propios)",
+                "Álgebra Superior/Moderna (estructuras algebraicas)",
+                "Lógica Matemática y Teoría de Conjuntos",
+                "Matemáticas Discretas (combinatoria, teoría de grafos, relaciones de recurrencia)"
+              ]
+            },
+            "semestres_intermedios": {
+              "titulo": "Análisis y Modelado",
+              "materias": [
+                "Análisis Matemático (Real y Complejo)",
+                "Ecuaciones Diferenciales Ordinarias y Parciales",
+                "Probabilidad y Estadística",
+                "Optimización (programación lineal, no lineal, algoritmos de optimización)",
+                "Topología (espacios topológicos, continuidad abstracta)",
+                "Métodos Numéricos (solución aproximada de ecuaciones, integración numérica)"
+              ]
+            },
+            "semestres_avanzados": {
+              "titulo": "Especialización y Investigación",
+              "materias": [
+                "Geometría Diferencial (curvas y superficies, colectores)",
+                "Teoría de Números (propiedades de los números enteros)",
+                "Cálculo de Variaciones (optimización de funcionales)",
+                "Modelado Matemático (aplicación de herramientas matemáticas a problemas de diversas disciplinas)",
+                "Temas Selectos (lógica, teoría de grafos avanzada, álgebra conmutativa, etc.)"
+              ],
+              "culminacion": "Seminario de investigación, proyecto de tesis o participación en proyectos de investigación supervisados por profesores."
+            }
+          }
+        },
+        {
+          "nombre": "Licenciatura en Física",
+          "perfil_egreso": {
+            "hard_skills": [
+              "Métodos matemáticos avanzados",
+              "Física teórica",
+              "Simulación computacional",
+              "Análisis experimental"
+            ],
+            "soft_skills": [
+              "Pensamiento crítico",
+              "Capacidad de abstracción",
+              "Metodología científica",
+              "Comunicación de hallazgos complejos"
+            ]
+          },
+          "areas_trabajo": {
+            "sectores": [
+              "Investigación científica",
+              "Tecnología avanzada",
+              "Energía",
+              "Academia"
+            ],
+            "puestos": [
+              "Investigador en física",
+              "Especialista en instrumentación científica",
+              "Profesor universitario",
+              "Consultor en tecnología"
+            ],
+            "empresas": [
+              "Institutos de física (IFUNAM)",
+              "Centros de investigación",
+              "Empresas tecnológicas",
+              "Laboratorios nacionales"
+            ]
+          },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          "trayectoria": {
+            "primeros_semestres": {
+              "titulo": "Fundamentos y Herramientas",
+              "materias": [
+                "Matemáticas (cálculo multivariable, ecuaciones diferenciales, álgebra lineal, análisis de Fourier)",
+                "Mecánica Clásica (leyes de Newton, energía, momentum, movimiento oscilatorio, gravitación)",
+                "Electromagnetismo (introducción)",
+                "Termodinámica y Mecánica Estadística (introducción)",
+                "Laboratorios de Física (habilidades experimentales, manejo de instrumentación)"
+              ]
+            },
+            "semestres_intermedios": {
+              "titulo": "Teoría y Laboratorio Avanzado",
+              "materias": [
+                "Mecánica Clásica Avanzada (Mecánica lagrangiana y hamiltoniana, movimiento de cuerpos rígidos)",
+                "Electromagnetismo Avanzado (Ecuaciones de Maxwell, ondas electromagnéticas, electrodinámica)",
+                "Mecánica Cuántica (introducción)",
+                "Termodinámica y Mecánica Estadística (distribuciones, sistemas de partículas)",
+                "Óptica (fenómenos ondulatorios de la luz, instrumentación óptica)",
+                "Física Moderna (relatividad especial, introducción a la física atómica y nuclear)",
+                "Métodos Matemáticos para la Física",
+                "Laboratorios de Física Avanzada"
+              ]
+            },
+            "semestres_avanzados": {
+              "titulo": "Especialización e Investigación",
+              "materias": [
+                "Mecánica Cuántica Avanzada (teoría de perturbaciones, espín, física de partículas)",
+                "Física del Estado Sólido (cristales, bandas de energía, semiconductores)",
+                "Física Nuclear y de Partículas (interacciones fundamentales, modelos nucleares)",
+                "Astrofísica y Cosmología (estructura de estrellas, galaxias, universo)",
+                "Física de Plasmas (fenómenos de gases ionizados)",
+                "Física Computacional (simulación numérica de sistemas físicos)",
+                "Temas Selectos (óptica cuántica, biofísica, física de materiales, etc.)"
+              ],
+              "culminacion": "Proyecto de investigación (tesis) bajo la guía de un investigador."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "area": "Ciencias Biológicas, Químicas y de la salud",
+      "carreras": [
+        {
+          "nombre": "Ciencias de la Salud (modelo general)",
+          "id": "SALUD",
+          "valor": "SALUD",
+          "descripcion": "Esta categoría es muy amplia y usualmente engloba carreras como Medicina, Enfermería, Odontología, Nutrición, Fisioterapia, Salud Pública, entre otras. La trayectoria académica varía significativamente entre ellas, pero comparten un tronco común en ciencias básicas de la vida y la salud.",
+          "trayectoria": {
+            "primeros_semestres": {
+              "titulo": "Fundamentos Biológicos y Químicos",
+              "materias": [
+                "Biología Celular y Molecular",
+                "Genética",
+                "Anatomía Humana",
+                "Fisiología Humana",
+                "Histología",
+                "Bioquímica",
+                "Microbiología y Parasitología",
+                "Química general y orgánica",
+                "Física aplicada a la salud",
+                "Matemáticas básicas (estadística, bioestadística)"
+              ]
+            },
+            "semestres_intermedios": {
+              "titulo": "Disciplinas Específicas de la Salud y Patología",
+              "materias": [
+                "Para Medicina y Odontología: Farmacología, Patología General y Específica, Inmunología, Epidemiología, Semiología y Propedéutica Clínica.",
+                "Para Enfermería: Fundamentos de Enfermería, Farmacología, Salud Comunitaria y Procesos de Atención de Enfermería.",
+                "Para Nutrición: Fisiología de la Nutrición, Bromatología, Dietoterapia, Evaluación Nutricional.",
+                "Para Fisioterapia: Cinesiología, Agentes Físicos, Evaluación Fisioterapéutica."
+              ],
+              "actividades": "Prácticas en laboratorios especializados y, en algunas carreras, contacto temprano con pacientes o entornos clínicos simulados."
+            },
+            "semestres_avanzados": {
+              "titulo": "Clínica, Práctica Profesional y Especialización",
+              "materias": [
+                "Para Medicina y Odontología: Rotaciones clínicas por distintas especialidades médicas/odontológicas.",
+                "Internado y servicio social (fundamentales).",
+                "Para Enfermería: Prácticas clínicas en hospitales y comunidades.",
+                "Para Nutrición: Prácticas hospitalarias, comunitarias y en servicios de alimentos.",
+                "Para Fisioterapia: Prácticas en clínicas de rehabilitación, hospitales y centros deportivos.",
+                "Ética profesional, legislación sanitaria, salud pública y gestión de servicios de salud."
+              ],
+              "culminacion": "Servicio social o proyecto de titulación (tesis de investigación o informe de caso clínico)."
+            }
+          }
+        },
+        {
+          "nombre": "Psicología",
+          "id": "PSICO",
+          "valor": "PSICO",
+          "descripcion": "La Licenciatura en Psicología estudia el comportamiento humano y los procesos mentales, desde una perspectiva científica y aplicada. Su trayectoria académica busca desarrollar tanto la comprensión teórica como las habilidades prácticas para intervenir en diversos contextos.",
+          "trayectoria": {
+            "primeros_semestres": {
+              "titulo": "Fundamentos Teóricos y Metodológicos",
+              "materias": [
+                "Principales corrientes y teorías psicológicas (conductismo, psicoanálisis, humanismo, cognitivismo)",
+                "Historia de la psicología",
+                "Neuropsicología",
+                "Psicología del Desarrollo (infancia, adolescencia, adultez)",
+                "Estadística aplicada a la psicología",
+                "Metodología de la Investigación",
+                "Psicometría (construcción y uso de pruebas psicológicas)"
+              ]
+            },
+            "semestres_intermedios": {
+              "titulo": "Áreas de Aplicación y Evaluación",
+              "materias": [
+                "Psicología Social",
+                "Psicología de la Educación",
+                "Psicología Organizacional",
+                "Psicología Clínica y de la Salud",
+                "Técnicas de evaluación psicológica (entrevista, observación, tests)",
+                "Psicopatología (estudio de los trastornos mentales)",
+                "Psicofarmacología (introducción a los fármacos y su efecto en el comportamiento)"
+              ],
+              "actividades": "Prácticas en laboratorios de experimentación psicológica o en escenarios simulados."
+            },
+            "semestres_avanzados": {
+              "titulo": "Intervención, Práctica Profesional y Especialización",
+              "materias": [
+                "Técnicas de intervención psicoterapéutica (terapia cognitivo-conductual, sistémica, humanista)",
+                "Estrategias de intervención en ámbito educativo, organizacional y social/comunitario.",
+                "Ética profesional, legislación en salud mental y diseño de programas de prevención."
+              ],
+              "actividades": "Prácticas profesionales supervisadas.",
+              "culminacion": "Proyecto de investigación (tesis) o informe de las prácticas profesionales.",
+              "posgrado": "Muchos optan por posgrado (maestría o doctorado) para especializarse y ejercer en áreas como la psicoterapia clínica."
+            }
+          }
+        },
+        {
+          "nombre": "Ciencias Biológicas (Biología)",
+          "id": "BIO",
+          "valor": "BIO",
+          "descripcion": "Es el estudio de la vida en todas sus formas y niveles de organización, desde lo molecular hasta los ecosistemas. Su trayectoria académica se centra en la comprensión de los fenómenos biológicos y la investigación.",
+          "trayectoria": {
+            "primeros_semestres": {
+              "titulo": "Fundamentos y Diversidad",
+              "materias": [
+                "Biología Celular",
+                "Genética",
+                "Química General, Orgánica y Bioquímica",
+                "Física (básica)",
+                "Matemáticas (cálculo, estadística)",
+                "Diversidad Biológica (Botánica, Zoología, Microbiología, Fisiología Vegetal y Animal)"
+              ],
+              "actividades": "Componente de laboratorio y salidas de campo."
+            },
+            "semestres_intermedios": {
+              "titulo": "Procesos y Evolución",
+              "materias": [
+                "Biología Molecular",
+                "Bioquímica Avanzada",
+                "Inmunología",
+                "Ecología (de poblaciones, comunidades y ecosistemas)",
+                "Evolución y Biogeografía",
+                "Técnicas de laboratorio avanzadas en biología molecular, genética y microbiología.",
+                "Metodología de la Investigación Científica, diseño experimental y análisis de datos biológicos."
+              ]
+            },
+            "semestres_avanzados": {
+              "titulo": "Especialización y Investigación",
+              "materias": [
+                "Neurociencias",
+                "Biotecnología",
+                "Biología de la Conservación",
+                "Genómica y Proteómica",
+                "Biología Marina",
+                "Parasitología, Virología, Zoología o Botánica aplicada."
+              ],
+              "actividades": "Trabajo de laboratorio autónomo, participación en proyectos de investigación supervisados.",
+              "culminacion": "Estancia en un laboratorio de investigación o realización de un proyecto de tesis.",
+              "posgrado": "Suelen optar por posgrados para dedicarse a la investigación, academia o roles especializados."
+            }
+          }
+        },
+        {
+          "nombre": "Ciencias Químicas",
+          "id": "QUIM",
+          "valor": "QUIM",
+          "descripcion": "Las Licenciaturas en Ciencias Químicas se centran en el estudio de la materia, sus propiedades, estructura, composición y las transformaciones que experimenta. Incluye Química, Químico Farmacéutico Biólogo, Químico Clínico, o Ingeniería Química.",
+          "trayectoria": {
+            "primeros_semestres": {
+              "titulo": "Fundamentos y Principios",
+              "materias": [
+                "Matemáticas (cálculo, álgebra lineal)",
+                "Física (mecánica, termodinámica)",
+                "Química General, Inorgánica, Orgánica y Fisicoquímica."
+              ],
+              "actividades": "Trabajo de laboratorio para desarrollar habilidades en el manejo de sustancias y equipos."
+            },
+            "semestres_intermedios": {
+              "titulo": "Análisis y Procesos",
+              "materias": [
+                "Química Analítica (cualitativa e instrumental)",
+                "Bioquímica (estudio de los procesos químicos en los seres vivos)",
+                "Microbiología (introducción a los microorganismos, relevante para QFB, QC)",
+                "Termodinámica Química y Cinética Química (estudio de la energía y velocidad de reacciones)",
+                "Fundamentos de Ingeniería Química (si aplica, para Ingeniería Química)",
+                "Farmacología y Toxicología (para QFB)",
+                "Inmunología (para QFB, QC)"
+              ]
+            },
+            "semestres_avanzados": {
+              "titulo": "Aplicaciones y Especialización",
+              "materias": [
+                "Para Químicos: Química Supramolecular, Catálisis, Ciencia de Materiales, Química Ambiental, Diseño Molecular.",
+                "Para QFB: Tecnología Farmacéutica, Farmacognosia, Control de Calidad de Medicamentos, Análisis Clínicos, Biotecnología Farmacéutica.",
+                "Para Químico Clínico: Química Clínica, Hematología, Parasitología, Bacteriología, Virología (con enfoque en diagnóstico de laboratorio).",
+                "Para Ingenieros Químicos: Operaciones Unitarias, Diseño de Reactores, Simulación de Procesos, Control de Procesos, Gestión Ambiental Industrial."
+              ],
+              "culminacion": "Proyectos de investigación, estancias en la industria o laboratorios especializados, y elaboración de una tesis."
+            }
+          }
+        },
+        {
+          "nombre": "Ciencias Ambientales",
+          "id": "AMBI",
+          "valor": "AMBI",
+          "descripcion": "Las Licenciaturas en Ciencias Ambientales adoptan un enfoque holístico para comprender y abordar los problemas ambientales, integrando conocimientos de biología, química, física, geografía, economía y sociología. Su trayectoria busca formar profesionales capaces de analizar la complejidad de los sistemas socio-ecológicos.",
+          "trayectoria": {
+            "primeros_semestres": {
+              "titulo": "Fundamentos Interdisciplinarios",
+              "materias": [
+                "Biología (ecología, microbiología)",
+                "Química (general, orgánica, analítica)",
+                "Física (energía, fluidos)",
+                "Matemáticas (estadística, modelado)",
+                "Geografía (cartografía, geomorfología)",
+                "Conceptos de desarrollo sostenible, problemáticas ambientales globales y economía ambiental."
+              ]
+            },
+            "semestres_intermedios": {
+              "titulo": "Análisis y Evaluación Ambiental",
+              "materias": [
+                "Contaminación del Agua, Aire y Suelo (origen, transporte, efectos y monitoreo de contaminantes)",
+                "Hidrología y Recursos Hídricos (ciclo del agua, gestión integrada del agua)",
+                "Biodiversidad y Conservación (amenazas, estrategias de conservación, manejo de áreas naturales protegidas)",
+                "Sistemas de Información Geográfica (SIG) y Teledetección (herramientas para el análisis espacial y la gestión de recursos naturales)",
+                "Evaluación de Impacto Ambiental (EIA) (metodologías para prever y mitigar impactos)",
+                "Ecotoxicología (efectos de los contaminantes en los seres vivos y ecosistemas)",
+                "Climatología y Cambio Climático (fenómenos climáticos y sus implicaciones ambientales y sociales)",
+                "Estadística y Modelado Ambiental (análisis de datos ambientales y simulación de procesos)"
+              ]
+            },
+            "semestres_avanzados": {
+              "titulo": "Gestión, Soluciones y Políticas",
+              "materias": [
+                "Gestión Integral de Residuos Sólidos y Peligrosos (tecnologías de tratamiento, reciclaje, valorización)",
+                "Energías Renovables y Eficiencia Energética (tecnologías y políticas para una transición energética)",
+                "Legislación y Política Ambiental (marco legal nacional e internacional)",
+                "Economía Ecológica y Ambiental (valoración de bienes y servicios ecosistémicos, instrumentos económicos para la gestión ambiental)",
+                "Restauración Ecológica (técnicas para recuperar ecosistemas degradados)",
+                "Educación Ambiental y Participación Ciudadana (herramientas para el fomento de la conciencia ambiental)",
+                "Auditorías Ambientales y Sistemas de Gestión Ambiental (ISO 14001)"
+              ],
+              "culminacion": "Proyectos de investigación, estudios de caso, prácticas profesionales en dependencias gubernamentales, ONGs, empresas de consultoría ambiental o industrias, y elaboración de una tesis."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "area": "Administración y Negocios",
+      "id": "NEGOCIOS",
+      "valor": "NEGOCIOS",
+      "descripcion": "Las carreras en Administración y Negocios (como la Licenciatura en Administración, Contaduría Pública, Mercadotecnia, Finanzas, o Negocios Internacionales) forman profesionales capaces de gestionar recursos, estrategias y procesos dentro de organizaciones de diversos tamaños y sectores.",
+      "trayectoria": {
+        "primeros_semestres": {
+          "titulo": "Fundamentos Generales",
+          "materias": [
+            "Matemáticas (álgebra, cálculo básico, matemáticas financieras)",
+            "Estadística",
+            "Contabilidad Básica",
+            "Microeconomía y Macroeconomía",
+            "Administración General",
+            "Derecho Empresarial",
+            "Habilidades de Comunicación"
+          ]
+        },
+        "semestres_intermedios": {
+          "titulo": "Disciplinas Centrales de Negocios",
+          "materias": [
+            "Contabilidad Financiera y de Costos",
+            "Finanzas Corporativas y Mercados Financieros (gestión de inversiones, fuentes de financiamiento, valoración de empresas)",
+            "Mercadotecnia Estratégica (investigación de mercados, branding, estrategias de producto, precio, plaza y promoción)",
+            "Recursos Humanos (gestión del talento, reclutamiento, capacitación, desarrollo organizacional)",
+            "Operaciones y Logística (optimización de procesos productivos y cadenas de suministro)",
+            "Derecho Laboral y Fiscal",
+            "Tecnologías de Información para los Negocios"
+          ]
+        },
+        "semestres_avanzados": {
+          "titulo": "Especialización y Proyectos Aplicados",
+          "materias": [
+            "Estrategia Empresarial y Consultoría",
+            "Comercio Internacional y Aduanas (para Negocios Internacionales)",
+            "Auditoría y Fiscalización (para Contaduría Pública)",
+            "Marketing Digital y Neuromarketing (para Mercadotecnia)",
+            "Banca y Bursátil, o Gestión de Portafolios (para Finanzas)",
+            "Emprendimiento e Innovación",
+            "Responsabilidad Social Corporativa y Sostenibilidad"
+          ],
+          "culminacion": "Proyectos integradores, simulaciones de negocios, estudios de caso y prácticas profesionales en empresas. La titulación puede ser a través de un proyecto de negocio, un estudio de caso real o una tesis de investigación aplicada."
+        }
+      }
+    },
+    {
+      "area": "Ciencias Políticas y Jurídicas",
+      "id": "JUR",
+      "valor": "JUR",
+      "descripcion": "Las carreras en Ciencias Políticas y Jurídicas (como la Licenciatura en Derecho, Ciencias Políticas, o Relaciones Internacionales) forman profesionales que comprenden el funcionamiento del Estado, las leyes, la sociedad, las relaciones de poder y la interacción entre naciones.",
+      "trayectoria": {
+        "primeros_semestres": {
+          "titulo": "Fundamentos del Estado y Sociedad",
+          "materias": [
+            "Teoría Política",
+            "Introducción al Derecho",
+            "Historia de las Ideas Políticas",
+            "Sociología General",
+            "Economía Política",
+            "Metodología de la Investigación Social",
+            "Filosofía del Derecho y Historia del Derecho (para carreras jurídicas)"
+          ]
+        },
+        "semestres_intermedios": {
+          "titulo": "Áreas Específicas y Análisis",
+          "materias": [
+            "Para Derecho: Derecho Constitucional, Civil, Penal, Mercantil, Administrativo, Laboral, Procesal y Derecho Internacional Público y Privado.",
+            "Para Ciencias Políticas: Sistemas Políticos Comparados, Teoría del Estado, Administración Pública, Opinión Pública, Partidos Políticos y Elecciones, Políticas Públicas y Análisis Político.",
+            "Para Relaciones Internacionales: Organismos Internacionales, Geopolítica, Seguridad Internacional, Diplomacia, Cooperación Internacional y Teorías de las Relaciones Internacionales."
+          ],
+          "habilidades": "Análisis crítico, redacción jurídica y política, y resolución de conflictos."
+        },
+        "semestres_avanzados": {
+          "titulo": "Aplicación, Casos y Especialización",
+          "materias": [
+            "Para Derecho: Litigación Oral, clínicas jurídicas, derecho ambiental, derecho fiscal avanzado, derecho de la propiedad intelectual, arbitraje y mediación.",
+            "Para Ciencias Políticas: Campañas políticas, análisis de discurso, gobernanza local, gestión pública, estudios de género y política.",
+            "Para Relaciones Internacionales: Negociación internacional, análisis de riesgo país, estudios de área, diplomacia cultural."
+          ],
+          "culminacion": "Proyectos de investigación, análisis de políticas públicas o casos jurídicos complejos. Servicio social o elaboración de tesis."
+        }
+      }
+    },
+    {
+      "area": "Ciencias Sociales y Humanas",
+      "id": "SOCIAL",
+      "valor": "SOCIAL",
+      "descripcion": "Las carreras en Ciencias Sociales y Humanas (como Sociología, Antropología, Historia, Filosofía, Comunicación Social, Lingüística, o Literatura) se dedican al estudio del ser humano en sociedad, sus culturas, su pasado, su pensamiento y sus formas de expresión. Fomentan el pensamiento crítico y la comprensión de la complejidad humana.",
+      "trayectoria": {
+        "primeros_semestres": {
+          "titulo": "Fundamentos y Teorías",
+          "materias": [
+            "Sociología General",
+            "Antropología Cultural",
+            "Historia Universal",
+            "Filosofía Antigua y Moderna",
+            "Metodología de la Investigación Cuantitativa y Cualitativa"
+          ],
+          "habilidades": "Lectura crítica, escritura académica y análisis de textos."
+        },
+        "semestres_intermedios": {
+          "titulo": "Áreas Temáticas y Análisis Profundo",
+          "materias": [
+            "Para Sociología: Estratificación Social, Sociología Urbana, Sociología del Trabajo, Sociología de la Cultura, Demografía y Teoría Sociológica Avanzada.",
+            "Para Antropología: Etnografía, Antropología Lingüística, Arqueología, Antropología Física, Antropología de la Religión y Antropología del Desarrollo.",
+            "Para Historia: Historiografía, Historia Nacional y Regional, Historia Económica y Social, Historia del Arte y Fuentes Históricas.",
+            "Para Filosofía: Metafísica, Epistemología, Ética, Estética, Lógica Avanzada y Filosofía Política.",
+            "Para Comunicación Social: Teorías de la Comunicación, Medios de Comunicación, Semiótica, Opinión Pública, Comunicación Organizacional.",
+            "Para Lingüística: Fonética y Fonología, Morfología, Sintaxis, Semántica, Sociolingüística y Psicolingüística."
+          ],
+          "habilidades": "Análisis de discurso, interpretación de datos sociales, crítica de fuentes y argumentación compleja."
+        },
+        "semestres_avanzados": {
+          "titulo": "Investigación y Aplicación Específica",
+          "materias": [
+            "Seminarios de Investigación Avanzada en el área de especialización elegida (género, migración, desarrollo, globalización, etc.)",
+            "Para Comunicación Social: Producción de contenidos para distintos medios, gestión de la comunicación, comunicación para el desarrollo.",
+            "Para Historia/Antropología: Archivística, museología, patrimonio cultural.",
+            "Para Filosofía: Ética aplicada, filosofía de la mente, filosofía de la ciencia."
+          ],
+          "actividades": "Investigación de campo, análisis de datos cualitativos, elaboración de ensayos y artículos académicos."
+        }
+      }
+    }
+  ]
+}
