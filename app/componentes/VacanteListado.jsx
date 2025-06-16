@@ -1,16 +1,5 @@
 import VacanteCard from './VacanteCard';
 
-const vacantes = [
-  {
-    id: '2',
-    titulo: 'Becario de marketing',
-    empresa: 'DiDi',
-    ubicacion: 'Ciudad de México',
-    fecha: 'Publicado hace 1 semana'
-  },
-  // ... más vacantes
-];
-
 export default function VacanteListado({ vacantes }) {
   return (
     <section>
