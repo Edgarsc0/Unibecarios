@@ -93,17 +93,12 @@ export function PostulantesTable({ postulantes = [], vacanteId }) {
                                                 </TableCell>
                                                 <TableCell>
                                                     <Select
-                                                        value={estadosPostulantes[postulante.cv_postulante] || postulante.postulante_estado}
+                                                        value={estadosPostulantes[postulante.cv_postulante] || postulante.estado}
                                                         onValueChange={(value) => handleEstadoChange(postulante.cv_postulante, value, postulante)}
                                                     >
                                                         <SelectTrigger className="w-full">
-                                                            <SelectValue>
-                                                                <Badge
-                                                                    variant="secondary"
-                                                                    className={getEstadoBadgeColor(estadosPostulantes[postulante.cv_postulante] || postulante.postulante_estado)}
-                                                                >
-                                                                    {estadosPostulantes[postulante.cv_postulante] || postulante.postulante_estado}
-                                                                </Badge>
+                                                            <SelectValue placeholder={postulante.estado}>
+                                                                {estadosPostulantes[postulante.cv_postulante] || postulante.estado}
                                                             </SelectValue>
                                                         </SelectTrigger>
                                                         <SelectContent>
