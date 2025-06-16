@@ -30,6 +30,7 @@ export default function SocialMediaForm({ idUsuario, networks, isOtherViewing })
 
             if (response.ok) {
                 toast.success(response.message);
+                window.location.reload();
                 const newSocialMedia = {
                     red_social: formData.redSocial,
                     link: formData.link,
