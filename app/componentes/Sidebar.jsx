@@ -18,9 +18,7 @@ export default function Sidebar() {
   if (session) {
 
     session.isAdmin ? items = [
-
       { icon: <Briefcase size={20} />, label: 'Vacantes', href: `/admin/${session.enterpriseId}` },
-
     ] : items = [
       { icon: <Home size={20} />, label: 'Inicio', href: '/trayectoria' },
       { icon: <Briefcase size={20} />, label: 'Vacantes', href: '/vacantes' },

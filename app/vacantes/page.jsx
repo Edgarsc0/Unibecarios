@@ -5,5 +5,7 @@ export default async function () {
 
     const { vacantes } = await getAllVacantes();
 
+    console.log(vacantes);
+
     return <VacantesPage vacantes={vacantes} />
 }
