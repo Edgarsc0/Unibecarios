@@ -24,7 +24,6 @@ export default function Sidebar() {
     ] : items = [
       { icon: <Home size={20} />, label: 'Inicio', href: '/trayectoria' },
       { icon: <Briefcase size={20} />, label: 'Vacantes', href: '/vacantes' },
-      { icon: <Search size={20} />, label: 'Buscar', href: '/buscar' },
       { icon: <Bookmark size={20} />, label: 'Guardados', href: '/guardados' },
       { icon: <Bell size={20} />, label: 'Notificaciones', href: '/notificaciones' },
     ];
@@ -32,7 +31,6 @@ export default function Sidebar() {
     items = [
       { icon: <Home size={20} />, label: 'Inicio', href: '/trayectoria' },
       { icon: <Briefcase size={20} />, label: 'Vacantes', href: '/vacantes' },
-      { icon: <Search size={20} />, label: 'Buscar', href: '/buscar' },
       { icon: <Bookmark size={20} />, label: 'Guardados', href: '/guardados' },
       { icon: <Bell size={20} />, label: 'Notificaciones', href: '/notificaciones' },
     ];
