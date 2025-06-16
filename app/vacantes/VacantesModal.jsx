@@ -16,6 +16,8 @@ function filtrarVacantesRecientes(vacantes, horas = 5) {
 export default function VacantesPage({ vacantes }) {
   const [busqueda, setBusqueda] = useState('');
 
+  console.log(vacantes);
+
   const vacantesFiltradas = vacantes.filter((vacante) => {
     const query = busqueda.toLowerCase();
     return (
@@ -26,11 +28,15 @@ export default function VacantesPage({ vacantes }) {
     );
   });
 
+
+
   const vacantesRecientes = filtrarVacantesRecientes(vacantesFiltradas);
   const vacantesNoRecientes = vacantesFiltradas.filter(
     v => !vacantesRecientes.some(r => r.vacante_id === v.vacante_id)
   );
 
+  console.log(vacantesRecientes);
+  console.log(vacantesNoRecientes);
   return (
     <div className="container mx-auto py-8 px-4">
       {/* Barra de búsqueda */}
