@@ -4,15 +4,25 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { MoreHorizontal, ChevronDown } from 'lucide-react';
 import '../styles/BarNav.css';
+import useSession from '@/hooks/useSession';
+import { logout } from '@/serverActions/logout';
 
 export default function BarNav() {
   const [menuAbierto, setMenuAbierto] = useState(false);
-  const [userName, setUserName] = useState(null);
+
+  const handleLogOut = async () => {
+    await logout();
+    window.location.reload();
+  }
+
+  const { session, loading, isAuthenticated } = useSession();
+
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    // Solo en cliente, asigna el nombre dinámico
-    setUserName('Bienvenido UserName');
+    setIsMounted(true);
   }, []);
+
 
   return (
     <header className="bar-nav">
@@ -21,7 +31,15 @@ export default function BarNav() {
       </button>
 
       <div className="bar-right">
-        <p className="bar-name">{userName || 'UserName'}</p>
+        {isMounted ? (
+          <p className="bar-name">
+            {loading ? 'Cargando...' : session?.userCompleteName || session?.adminCompleteName ? `Bienvenido(a) ${session.userCompleteName || session.adminCompleteName}` : 'Inicia Sesion'}
+          </p>
+        ) : (
+          <p className="bar-name">
+            Cargando sesion...
+          </p>
+        )}
 
         <div className="bar-user"
           onClick={() => setMenuAbierto(!menuAbierto)
@@ -36,11 +54,12 @@ export default function BarNav() {
 
         {menuAbierto && (
           <div className="bar-dropdown">
-            <Link href="/perfil" className="bar-dropdown-item">Perfil</Link>
-            <button className="bar-dropdown-item">Cerrar sesión</button>
+            {session.isAdmin ? (null) : (
+              <Link href={`/perfil/${session.userId}`} className="bar-dropdown-item">Perfil</Link>
+            )}
+            <button onClick={handleLogOut} className="bar-dropdown-item">Cerrar sesión</button>
           </div>
         )}
-
       </div>
     </header>
   );

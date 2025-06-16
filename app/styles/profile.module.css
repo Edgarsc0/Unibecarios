@@ -6,6 +6,37 @@
   color: #333;
 }
 
+.formGroup {
+  flex: 1;
+}
+
+.fileUpload {
+  border: 2px dashed #ddd;
+  border-radius: 6px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.fileUpload:hover {
+  border-color: #3498db;
+  background-color: #f0f8ff;
+}
+
+.uploadText {
+  color: #7f8c8d;
+  font-size: 14px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
 .title {
   font-size: 1.8rem;
   color: #2c3e50;
@@ -90,35 +121,56 @@
 }
 
 .addLinkButton {
-  background: none;
-  border: 1px dashed #3498db;
-  color: #3498db;
-  padding: 0.5rem;
-  border-radius: 4px;
+  width: 100%;
+  margin-top: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
   cursor: pointer;
-  margin-top: 0.5rem;
-  transition: all 0.2s;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  height: fit-content;
 }
 
 .addLinkButton:hover {
-  background-color: #eaf2f8;
+  background: #0056b3;
 }
 
-.skillsContainer, .languagesContainer {
+.skillsContainer,
+.languagesContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
 
-.skill, .language {
+.addHabilidadesContainer {
+  margin-top: 1rem;
+}
+
+.skill,
+.language {
   background-color: #eaf2f8;
   color: #2980b9;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.language {
-  background-color: #e8f8f5;
-  color: #27ae60;
+.skill .remove-btn,
+.language .remove-btn {
+  background: none;
+  border: none;
+  color: #c0392b;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  line-height: 1;
 }

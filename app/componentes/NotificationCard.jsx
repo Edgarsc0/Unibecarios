@@ -1,28 +1,27 @@
 'use client';
-import Link from 'next/link';
 
-export default function NotificationCard({
-  id,
-  title,
-  description,
-  date,
-  read
-}) {
+import { formatDistanceToNow } from "date-fns";
+import { es } from "date-fns/locale";
+
+function formatearFecha(fechaISO) {
+  return formatDistanceToNow(new Date(fechaISO), {
+    addSuffix: true,
+    locale: es,
+  });
+}
+
+
+export default function NotificationCard({ notification }) {
   return (
-    <Link
-      href={`/notificaciones/${id}`}
-      className={`block p-4 border-b hover:bg-gray-50 transition ${read ? 'bg-white' : 'bg-blue-50'}`}
-    >
-      <div className="flex justify-between items-start">
-        <div>
-          <h3 className={`font-medium ${read ? 'text-gray-700' : 'text-blue-600'}`}>
-            {title}
-          </h3>
-          <p className="text-sm text-gray-600 mt-1">{description}</p>
-        </div>
-        <span className="text-xs text-gray-500">{date}</span>
+    <div className="flex justify-between items-start">
+      <div>
+        <h3 className={`font-medium text-blue-600`}>
+          {notification.titulo}
+        </h3>
+        <p className="text-sm text-gray-600 mt-1">{notification.mensaje}</p>
       </div>
-    </Link>
+      <span className="text-xs text-gray-500">{formatearFecha(notification.fecha)}</span>
+    </div>
   );
 }
 

@@ -1,0 +1,210 @@
+/* Estilos base del perfil */
+.profileContainer {        
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #ffffff;    
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+    
+    background: #f8f9fa;
+    border-radius: 12px;    
+}
+
+.sectionTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 0.5rem;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    align-items: end;
+}
+
+.gridItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-weight: 500;
+    color: #495057;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.value {
+    color: #6c757d;
+    margin: 0;
+}
+
+.inputField {
+    padding: 10px 12px;
+    border: 2px solid #dee2e6;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+    background: white;
+}
+
+.inputField:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.addLinkButton {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    height: fit-content;
+}
+
+.addLinkButton:hover {
+    background: #0056b3;
+}
+
+.link {
+    color: #007bff;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la tabla */
+.tableContainer {
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+
+.socialTable {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tableHeader {
+    background: #f8f9fa;
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 600;
+    color: #495057;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.tableRow {
+    border-bottom: 1px solid #dee2e6;
+    transition: background-color 0.2s ease;
+}
+
+.tableRow:hover {
+    background-color: #f8f9fa;
+}
+
+.tableCell {
+    padding: 12px 16px;
+    vertical-align: middle;
+}
+
+.socialName {
+    font-weight: 500;
+    color: #495057;
+    padding: 4px 8px;
+    background: #e9ecef;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.removeButton {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background-color 0.2s ease;
+}
+
+.removeButton:hover {
+    background: #c82333;
+}
+
+.infoContainer {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 1rem;
+    border: 1px solid #dee2e6;
+}
+
+.infoContent {
+    margin-top: 1rem;
+}
+
+.infoItem {
+    margin-bottom: 0.5rem;
+    padding: 8px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.infoItem:last-child {
+    border-bottom: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .profileContainer {
+        padding: 15px;
+    }
+
+    .gridContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .socialTable {
+        font-size: 0.9rem;
+    }
+
+    .tableHeader,
+    .tableCell {
+        padding: 8px 12px;
+    }
+
+    .socialName {
+        font-size: 0.8rem;
+    }
+
+    .removeButton {
+        padding: 4px 8px;
+        font-size: 0.8rem;
+    }
+}
